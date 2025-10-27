@@ -1,0 +1,50 @@
+# Ignorar archivos temporales y del sistema en la raíz y subcarpetas
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignorar node_modules y build en el frontend (Vue)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Ignorar vendor y archivos de Laravel en backend
+backend/vendor/
+backend/storage/*.key
+backend/storage/pail/
+
+# Ignorar archivos de entorno y de configuración sensibles en backend
+backend/.env
+backend/.env.backup
+backend/.env.production
+
+# Ignorar directorios de editores en ambas carpetas
+backend/.idea/
+backend/.vscode/
+backend/.fleet/
+backend/.nova/
+backend/.phpunit.cache/
+backend/.zed/
+
+frontend/.vscode/
+frontend/.idea/
+
+# Otros archivos específicos de backend Laravel
+backend/.phpactor.json
+backend/.phpunit.result.cache
+backend/auth.json
+backend/Homestead.json
+backend/Homestead.yaml
+
+# Archivos y logs de npm/yarn/pnpm en frontend
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Archivos específicos para frontend
+frontend/*.local
+
+# Excepciones para algunas configuraciones que quieras mantener (opcional)
+!frontend/.vscode/extensions.json
