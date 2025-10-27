@@ -41,7 +41,7 @@ Este es un sistema pequeño de gestión de proyectos y tareas, desarrollado con 
    
 ---
 
-## Usuarios de Prueba
+## Usuario de Prueba
 
 - Correo electrónico: [admin@gmail.com](mailto:admin@gmail.com)
 - Contraseña: `12345678`
