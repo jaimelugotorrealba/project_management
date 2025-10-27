@@ -16,6 +16,7 @@ Este es un sistema pequeño de gestión de proyectos y tareas, desarrollado con 
 
 - Backend: Laravel Framework 12, Laravel Sanctum para autenticación, migraciones y seeders incorporados.
 - Frontend: Vue.js 3, Pinia para gestión del estado, Vite como bundler, Tailwind CSS para estilos.
+- Base de datos: Mysql
 
 ---
 
